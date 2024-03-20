@@ -1,5 +1,5 @@
 {% set name = "trame-matplotlib" %}
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-matplotlib-{{ version }}.tar.gz
-  sha256: 114dccf02d52163049032f449ad24114f82fc8d68bd0c1814a692714202447eb
+  sha256: 4cf0beb092fc2b11988480346a0cae3ce5fe0267429c7876727a8389bded5cd6
 
 build:
   number: 0
